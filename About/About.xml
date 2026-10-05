@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Raid Spawn Profiler (diagnostic)</name>
+  <author>ifchen0</author>
+  <packageId>ifchen0.raidspawnprofiler</packageId>
+  <supportedVersions><li>1.6</li></supportedVersions>
+  <description>Diagnostic only. Times each stage of incident execution (pawn generation, spawning, letters, lords) and logs a breakdown after any incident that takes longer than 100 ms. Also reports Deferred Raid Generation steps and siege builders without skills.</description>
+  <modDependencies>
+    <li><packageId>brrainz.harmony</packageId><displayName>Harmony</displayName><steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl></li>
+  </modDependencies>
+  <loadAfter><li>brrainz.harmony</li></loadAfter>
+</ModMetaData>
